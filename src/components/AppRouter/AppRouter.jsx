@@ -13,7 +13,7 @@ const AppRouter = () => {
 
     useEffect(() => {
         dispatch(AuthActionCreators.signIn());
-    }, [dispatch]);
+    }, []);
 
     return (
         <Switch>
